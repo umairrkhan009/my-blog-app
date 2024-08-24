@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <style>
+    .head {
+  background-color: #2C3E50;
+  margin-bottom: 50px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border-bottom: 3px solid #F39C12;
+}
+.head a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.head li a:hover {
+  color: #F39C12;
+}
+
+.head > header > div.logo {
+  font-size: 2rem;
+  color: white;
+}
+
+.head li {
+  font-size: 1.3rem;
+  margin: auto 10px;
+}
+
+
+.btn{
+  font-size: 1.3rem;
+  border: 1px solid gray;
+}
+
+.btn:hover{
+  border: 1px solid #F39C12;
+  color: #F39C12;
+}
+  </style>
+
+</head>
+<body>
+  <div class="px-3 head" bis_skin_checked="1">
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
+    >
+      <div class="col-md-3 mb-2 mb-md-0 logo" bis_skin_checked="1">
+        <a href="/" >
+          My Blog App
+      </a>
+        
+  
+        
+      </div>
+  
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="/" class="nav-link px-2 ">Blogs</a></li>
+        <li><a href="/about.ejs" class="nav-link px-2">About</a></li>
+        <li><a href="/contact.ejs" class="nav-link px-2">Get in Touch</a></li>
+      </ul>
+  
+      <div class="col-md-3 text-end" bis_skin_checked="1">
+        <a class="btn " href="/create.ejs" role="button">Create Your Blog</a>
+      </div>
+    </header>
+  </div>
+</body>
+</html>
+

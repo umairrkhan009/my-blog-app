@@ -1,0 +1,93 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  input,
+  textarea,
+  button {
+    width: 300px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+
+  div > img {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  input,
+  textarea,
+  button {
+    width: 400px;
+  }
+
+  div > img {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  input,
+  textarea,
+  button {
+    width: 600px;
+  }
+
+  div > img {
+    height: 400px;
+  }
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+}
+
+input,
+textarea {
+  font-weight: 400;
+  padding: 4px 8px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #f39c12;
+  color: #ffffff;
+}
+
+img {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 2, 0.5));
+}

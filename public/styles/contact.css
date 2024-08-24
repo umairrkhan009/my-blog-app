@@ -1,0 +1,54 @@
+@media only screen 
+and (min-width: 320) 
+and (max-width: 768px) {
+    input,
+    textarea,
+    button {
+        width: 300px;
+    }
+}
+
+@media only screen 
+and (min-width: 768px)  {
+    input,
+    textarea,
+    button {
+        width: 600px;
+    }
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+input,
+textarea,
+button{
+    padding: 4px 12px;
+    font-size: 1.3rem;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #F39C12;
+    color: #FFFFFF;
+}
