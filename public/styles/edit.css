@@ -1,3 +1,22 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  div>img{
+    display: none;
+
+  }
+
+  input,
+    textarea,
+    button {
+      width: 200px;
+    }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     input,
     textarea,
@@ -5,8 +24,6 @@
       width: 300px;
     }
   
-   
-
     .container{
         display: flex;
         justify-content: center;
