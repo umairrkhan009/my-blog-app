@@ -1,4 +1,4 @@
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   input,
   textarea,
   button {
@@ -7,6 +7,10 @@
 
   .form {
     display: flex;
+    flex-direction: column;
+  }
+
+  .container{
     justify-content: center;
   }
 
@@ -23,6 +27,10 @@
     width: 400px;
   }
 
+  .container{
+    justify-content: space-between;
+  }
+
   div > img {
     height: 300px;
   }
@@ -33,6 +41,10 @@
   textarea,
   button {
     width: 600px;
+  }
+
+  .container{
+    justify-content: space-between;
   }
 
   div > img {
@@ -48,10 +60,10 @@ body {
   background-color: white;
 }
 
-h1 {
+/* h1 {
   text-align: left;
   margin-bottom: 15px;
-}
+} */
 
 form {
   display: flex;
@@ -70,7 +82,7 @@ textarea {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
 }
 
 button {
